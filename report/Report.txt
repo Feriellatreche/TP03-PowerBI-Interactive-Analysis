@@ -1,1 +1,11 @@
-TP03 – Interactive Data Analysis and Visualization Using Power BI
+# TP03 – Interactive Data Analysis and Visualization Using Power BI
+
+The dataset used in TP02, `combined_over_5gb.csv`, was imported into Power BI. It contains 98,777,445 rows and seven columns: `trade_time`, `open`, `high`, `low`, `close`, `vol`, and `amount`.
+
+Power Query was used to inspect data quality. Column Quality showed 100% valid values, 0% empty values, and 0% errors in the inspected columns. The data types were checked and found appropriate, and the column names were clear. The completed duplicate check reported zero duplicate rows.
+
+Five visual elements were created: a Card displaying the average closing price, a horizontal bar chart and a vertical column chart showing average closing price by month, a column chart showing total trading volume over time, and a line chart showing the monthly trend in average closing prices.
+
+A month slicer was added and tested with different month selections. The charts and the average closing-price Card responded to the selected month, confirming that interactive filtering worked as expected.
+
+The final dashboard was arranged in Power BI Desktop, the report was saved in `.pbix` format, and a screenshot of the dashboard was captured for submission.
