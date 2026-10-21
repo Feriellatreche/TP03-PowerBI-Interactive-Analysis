@@ -361,9 +361,6 @@ The original full-data report and CSV dataset are retained separately and are no
 
    Lightweight report containing the first 1,000 rows.
 
-2. **Dashboard Screenshot**
-
-   `screenshots/TP03_Dashboard.png`
 
 3. **Project Documentation**
 
