@@ -1,11 +1,18 @@
-# TP03 – Interactive Data Analysis and Visualization Using Power BI
 
-The dataset used in TP02, `combined_over_5gb.csv`, was imported into Power BI. It contains 98,777,445 rows and seven columns: `trade_time`, `open`, `high`, `low`, `close`, `vol`, and `amount`.
+TP03 – Interactive Data Analysis and Visualization Using Power BI
 
-Power Query was used to inspect data quality. Column Quality showed 100% valid values, 0% empty values, and 0% errors in the inspected columns. The data types were checked and found appropriate, and the column names were clear. The completed duplicate check reported zero duplicate rows.
+The dataset used in TP02, combined_over_5gb.csv, was imported into Power BI Desktop. It contains 98,777,445 rows and seven columns: trade_time, open, high, low, close, vol, and amount. The dataset covers the period 2000–2009.
 
-Five visual elements were created: a Card displaying the average closing price, a horizontal bar chart and a vertical column chart showing average closing price by month, a column chart showing total trading volume over time, and a line chart showing the monthly trend in average closing prices.
+Power Query was used to inspect and prepare the dataset. Column Quality reported 100% valid values, 0% empty values, and 0% errors in the inspected columns. The data types were verified, and the column names were clear. Duplicate detection was performed using Group By and Count Rows, with the completed check reporting zero duplicate rows.
 
-A month slicer was added and tested with different month selections. The charts and the average closing-price Card responded to the selected month, confirming that interactive filtering worked as expected.
+Five visual elements were created: a KPI Card displaying the average closing price, horizontal and vertical bar charts comparing monthly average closing prices, a column chart displaying total trading volume, and a line chart illustrating monthly closing-price trends.
 
-The final dashboard was arranged in Power BI Desktop, the report was saved in `.pbix` format, and a screenshot of the dashboard was captured for submission.
+The dashboard displayed an overall average closing price of 15.39. June recorded the highest approximate monthly average closing price (16.5), while October recorded the lowest (14.1). Average closing prices generally increased from January to June, decreased toward October, and partially recovered in November and December.
+
+Trading-volume analysis showed that April recorded the highest total trading volume (approximately 85 billion), while October and November recorded comparatively low volumes (approximately 30 billion each). These results indicate variations in trading activity across calendar months, but do not establish their underlying economic causes.
+
+A month slicer was added and tested. The charts and KPI Card responded dynamically to different month selections, confirming that interactive filtering worked correctly.
+
+The final dashboard was saved in PBIX format, and a screenshot was captured for submission. A lightweight version containing the first 1,000 rows was prepared for GitHub publication, while the original full-data report was retained separately.
+
+Note: Monthly numerical values are approximate readings from the dashboard screenshot. Monthly statistics aggregate observations across the available years rather than representing a single calendar year.
